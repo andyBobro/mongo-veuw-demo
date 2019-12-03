@@ -1,0 +1,55 @@
+{
+  "name": "datepicker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon server.js",
+    "dev": "webpack-dev-server --mode development --progress --hot --open",
+    "build": "webpack --mode production --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "image-to-ascii": "^3.0.12"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "css-loader": "^1.0.1",
+    "dayjs": "^1.8.17",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "global": "^4.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "iconv": "^2.3.3",
+    "image-webpack-loader": "^4.5.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.10",
+    "morgan": "^1.9.1",
+    "node-gyp": "^3.8.0",
+    "node-sass": "^4.10.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}

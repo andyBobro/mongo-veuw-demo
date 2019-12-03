@@ -1,0 +1,30 @@
+.fl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  &--grid {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  &--col {
+    flex-direction: column;
+  }
+  &--nowrap {
+    flex-wrap: nowrap;
+  }
+  &__it {
+    &--grid {
+      padding: 0 10px;
+    }
+  }
+}
+
+.section {
+  margin: 40px 0;
+  &__inner {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
