@@ -3,8 +3,10 @@
   section.section
     .section__inner
       h1(style="border-bottom: 1px solid #000;") Posts
-      .post-row
+      .post-row(v-if="getPostsCount > 0")
         Post(v-for="p in posts" :key="p._id" :data="p")
+
+      h5 No posts yet
 </template>
 
 <script>
